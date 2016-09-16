@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script language="javascript">
+$(document).ready(function(){
+$("#zz").click(function(){
+$("#ab").slideToggle();
+});
+});
+</script>
+<style>
+#ab,p#zz
+{
+ background:#00CCFF;
+ text-align:center;
+ font-size:18px;
+ color:#CC3366;
+ }
+ #ab
+ { display:none;
+ height:250px;
+ width:400px;
+ border:2px #FF3333 groove;
+ }
+</style>
+</head>
+
+<body>
+<div id="ab">
+<p>hey hello whats up! are you fine</p>
+<p>i am stdying for my exam</p>
+</div>
+<p id="zz">welcome</p>
+</body>
+</html>

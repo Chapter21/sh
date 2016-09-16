@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js" >
+</script>
+<script language="javascript">
+$(document).ready(function(){
+$(".menu li").hover(function(){
+$(this).next("p").show();
+});
+});
+</script>
+<style>
+.menu{
+margin:100px 0 0 0;
+padding:0px;
+list-style:none;
+}
+.menu li{
+margin-left:50px;
+position:relative;
+text-align:center;
+display:inline;
+float:left;
+}
+.menu a{
+text-decoration:none;
+padding:10px 5px;
+background:#6600FF;
+display:block;
+}
+.menu p{
+display:none;
+background:#CCCC99;
+width:200px;
+height:50px;
+top:-80;
+text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+<ul class="menu">
+<li><a href="#">home</a>
+<p>go to home</p>
+</li>
+<li><a href="#">aobut</a>
+<p>about us/p>
+</li>
+<li><a href="#">help</a>
+<p>need help</p>
+</li>
+</ul>
+
+</body>
+</html>
